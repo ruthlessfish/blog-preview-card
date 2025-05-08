@@ -1,0 +1,102 @@
+.figtree-500 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.figtree-800 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width:1440px;
+    margin: 0 auto;
+    background-color: var(--yellow);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    font-size:16px;
+    display: flex;;
+}
+
+.card {
+    background: var(--white);
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 1em;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    border:1px solid black;
+    box-shadow: 10px 10px 0 black;
+}
+
+.card__image {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card__tag {
+    background: var(--yellow);
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    /* font-size: s12px; */
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.card__date {
+    font-size: .9em;
+    margin-bottom: 15px;
+}
+
+.card__title {
+    margin-bottom: 20px;
+    font-size:24px;
+}
+
+.card__description {
+    color: var(--gray-500);
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.card__author {
+    display: flex;
+    align-items: center;
+}
+
+.card__author-image {
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;s
+}
+
+.card__author-name {
+    font-weight:800;
+}
+
+footer {position:fixed; bottom:10px; right:10px;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }a
